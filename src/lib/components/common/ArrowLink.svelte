@@ -14,7 +14,7 @@
     version="1.1"
     fill="none"
   >
-    <g stroke="white" fill="none" stroke-width="1">
+    <g class="stroke-dark dark:stroke-white" fill="none" stroke-width="1">
       <line
         x1="5"
         y1="11.01"
