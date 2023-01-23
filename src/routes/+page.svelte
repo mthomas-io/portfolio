@@ -10,6 +10,10 @@
   const { projects } = data;
 </script>
 
+<svelte:head>
+  <title>Thomas Schoutsen | Portfolio</title>
+</svelte:head>
+
 <MainLayout>
   <div>
     {#each projects as project, i}

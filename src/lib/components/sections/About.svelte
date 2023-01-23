@@ -50,7 +50,7 @@
     <ul>
       <li>
         <a
-          class="external-link text-sm tracking-widest uppercase"
+          class="external-link text-sm tracking-widest uppercase break-words"
           href="https://linkedin.com/in/thomasschoutsen"
           target="_blank"
           rel="noreferrer"

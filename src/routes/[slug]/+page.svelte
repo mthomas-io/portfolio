@@ -15,6 +15,10 @@
   onMount(() => (loaded = true));
 </script>
 
+<svelte:head>
+  <title>Thomas Schoutsen | {project.title}</title>
+</svelte:head>
+
 <MainLayout>
   <img
     class="
@@ -90,7 +94,7 @@
                         class="w-full object-cover aspect-[500/333]"
                       />
                     {:else}
-                      <video class="w-full" autoplay muted loop>
+                      <video class="w-full" autoplay muted loop playsinline>
                         <source
                           src={mediaItem.url}
                           type={mediaItem.videoType}

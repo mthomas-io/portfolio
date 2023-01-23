@@ -16,7 +16,7 @@
 </script>
 
 <aside
-  class="w-full flex gap-8 justify-between max-md:items-center md:flex-col md:gap-10 md:w-1/3 md:min-w-[200px]"
+  class="w-full flex gap-4 flex-col justify-between max-md:items-center md:gap-10 md:w-1/3 md:min-w-[200px]"
 >
   <div class="flex items-center text-sm tracking-widest">THOMAS SCHOUTSEN</div>
   <nav>

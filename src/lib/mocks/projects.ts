@@ -4,7 +4,7 @@ import type * as i from '$lib/types';
 const projects: i.Project[] = [
   {
     slug: 'getintheloop',
-    title: 'GetintheLoop.ca',
+    title: 'GetintheLoop Canada',
     subtitle: 'Shopping local made easy',
     links: [
       {
