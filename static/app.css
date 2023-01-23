@@ -1,0 +1,80 @@
+:root {
+  --app-color-dark: #2a2a2a;
+  --app-color-light: #ffffff;
+
+  /* Padding */
+  --app-padding-small: 8px;
+  --app-padding-medium: 16px;
+  --app-padding-large: 24px;
+
+  /* Font size */
+  --app-font-size-h1: 3rem;
+
+  /* Default uses light theme */
+  --app-background-color: var(--app-color-light);
+  --app-text-color: var(--app-color-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --app-background-color: var(--app-color-dark);
+    --app-text-color: var(--app-color-light);
+  }
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--app-background-color);
+  color: var(--app-text-color);
+}
+
+h1 {
+  font-size: var(--app-font-size-h1);
+}
+
+h2 {
+  font-weight: normal;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
