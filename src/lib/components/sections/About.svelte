@@ -7,19 +7,18 @@
   <div class="flex-1 flex flex-col gap-4">
     <Header size="h2" bold>About</Header>
     <p>
-      I'm a full-stack engineer, born and raised in the Netherlands and have had
-      the opportunity to work on diverse projects across Europe giving me the
-      opportunity to have lived in Sweden and Czech Republic. Currently I reside
-      in Canada as a permanent resident. I'm experienced in working with and
-      leading (small) teams, mentoring junior developers, and providing
-      consulting services on product decisions, full-stack architecture and
-      frameworks. The positions I've held range from small start-ups to
-      large-scale clients in hydrography & geophysics, healthcare, marketing and
-      cyber-security industries. As a freelancer, I have established and
-      maintained successful working relationships with my clients and am
-      committed to building and maintaining projects on set timelines, taking
-      into account the client's vision and users' needs. I am passionate about
-      using this technology to make a positive impact on the environment.
+      I'm a full-stack engineer, born and raised Netherlands, but took the
+      opportunity to work on diverse projects across Europe and am currently
+      residing in Canada with permanent resident status. I'm experienced in
+      working in agile teams, have mentored junior developers, led a (small) dev
+      team and continuously provide consulting services on product decisions,
+      full-stack architecture and frameworks. The positions I've held range from
+      small start-ups to large-scale clients in hydrography & geophysics,
+      healthcare, marketing and cyber-security industries. As a freelancer, I
+      have established and maintained successful working relationships with my
+      clients and am committed to building and maintaining projects on set
+      timelines. I am passionate about using this technology to make a positive
+      impact on the environment.
     </p>
     <Header size="h2" bold class="mt-4">Website</Header>
     <p>
