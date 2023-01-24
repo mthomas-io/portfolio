@@ -65,7 +65,7 @@ const projects: i.Project[] = [
         description: 'I developed a suite of internal tools for GetintheLoop, which gave us the ability to effectively manage the active markets, control offers that are featured in certain areas, and gain valuable insights into the performance and growth of the business.',
         media: [
           [
-            { type: 'video', url: '/img/projects/gitl/market_expansion.mp4', videoType: 'video/mp4' },
+            { type: 'video', url: '/video/gitl_market_expansion.mp4', videoType: 'video/mp4' },
           ],
         ],
       },
@@ -171,7 +171,7 @@ const projects: i.Project[] = [
         description: 'One of my key contributions to the Zelf.nl project was the integration of a payment provider, which allowed users to upgrade pricing tiers with ease and supported the platform\'s transition to a monetized model.',
         media: [
           [
-            { type: 'video', url: '/img/projects/zelfnl/payments.mp4', videoType: 'video/mp4' },
+            { type: 'video', url: '/video/zelf_payments.mp4', videoType: 'video/mp4' },
           ],
         ],
       },
