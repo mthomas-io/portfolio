@@ -6,6 +6,7 @@
   import Header from "$lib/components/typography/Header.svelte";
   import NextProjectItem from "$lib/components/project/NextProjectItem.svelte";
   import ArrowLink from "$lib/components/common/ArrowLink.svelte";
+  import Picture from "$lib/components/common/Picture.svelte";
 
   export let data: PageServerData;
 
@@ -20,7 +21,7 @@
 </svelte:head>
 
 <MainLayout>
-  <img
+  <Picture
     class="
       object-cover
       aspect-[500/333]
@@ -31,8 +32,8 @@
       ease-[cubic-bezier(0.19,1,0.22,1)]
       group-hover:scale-[1.15]
     "
-    src={project.img.url}
-    alt="{project.title} project image"
+    picture={project.img.sources}
+    alt={project.img.alt}
   />
 
   <div class="mt-8 mb-24">
@@ -88,8 +89,8 @@
                 {#each media as mediaItem}
                   <div class="flex-1 basis-1/3">
                     {#if mediaItem.type === "image"}
-                      <img
-                        src={mediaItem.url}
+                      <Picture
+                        picture={mediaItem.sources}
                         alt={mediaItem.alt}
                         class="w-full object-cover aspect-[500/333]"
                       />

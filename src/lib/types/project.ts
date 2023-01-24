@@ -1,6 +1,19 @@
+export type PictureSources = {
+  fallback: {
+    src: string;
+  };
+  sources: {
+    [key: string]: {
+      src: string;
+      w?: number;
+      h?: number;
+    }[];
+  };
+};
+
 type Image = {
   type: 'image',
-  url: string;
+  sources: PictureSources;
   alt: string;
 }
 

@@ -1,4 +1,7 @@
 <script lang="ts">
+  // This is imported only for project images to get picked up by vite for optimization
+  // Only necessary until I move projects to a headless cms with img serving
+  import projects from "$lib/mocks/projects";
   import { windowSize } from "$lib/stores";
   import "../app.css";
 

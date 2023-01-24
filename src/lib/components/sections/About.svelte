@@ -46,7 +46,7 @@
   </div>
   <div class="flex-1 flex gap-4 flex-col">
     <Header size="h2" bold>Contact</Header>
-    <ul>
+    <ul class="flex flex-col gap-2">
       <li>
         <a
           class="external-link text-sm tracking-widest uppercase break-words"
@@ -55,6 +55,16 @@
           rel="noreferrer"
         >
           linkedin.com/in/thomasschoutsen
+        </a>
+      </li>
+      <li>
+        <a
+          class="external-link text-sm tracking-widest uppercase break-words"
+          href="https://github.com/mthomas-io"
+          target="_blank"
+          rel="noreferrer"
+        >
+          github.com/mthomas-io
         </a>
       </li>
     </ul>

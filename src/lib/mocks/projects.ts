@@ -1,4 +1,18 @@
 import type * as i from '$lib/types';
+import gitlFeatured from '$lib/assets/projects/gitl/featured.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import gitlDealsDevices from '$lib/assets/projects/gitl/deals_devices.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import gitlSpotlightEmailTablet from '$lib/assets/projects/gitl/spotlight_email_tablet.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import gitlLocalBusiness from '$lib/assets/projects/gitl/local_business.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepFeatured from '$lib/assets/projects/deep/featured.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepTech from '$lib/assets/projects/deep/tech.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepLogo from '$lib/assets/projects/deep/splashscreen.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepDevices from '$lib/assets/projects/deep/device_mashup.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepOffline from '$lib/assets/projects/deep/offline.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepBreaker from '$lib/assets/projects/deep/breaker.jpeg?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import deepMetrics from '$lib/assets/projects/deep/metrics.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import zelfFeatured from '$lib/assets/projects/zelfnl/featured.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import zelfDashboardDevices from '$lib/assets/projects/zelfnl/dashboard_devices.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import zelfLogo from '$lib/assets/projects/zelfnl/zelf.jpg?width=600;900;1200;1600&format=webp;png&picture&imagetools';
 
 // Move to a headless cms one day, probably, maybe..
 const projects: i.Project[] = [
@@ -14,7 +28,7 @@ const projects: i.Project[] = [
     ],
     img: {
       type: 'image',
-      url: '/img/projects/gitl/featured.png',
+      sources: gitlFeatured,
       alt: 'Featured image of project GetintheLoop',
     },
     category: 'App / Site',
@@ -32,7 +46,7 @@ const projects: i.Project[] = [
         description: 'One of the projects I was responsible for was rewriting the legacy Angular.js web-app to React/Next.js, resulting in a significant improvements in performance and a better mobile user experience for those not using the native app.',
         media: [
           [
-            { type: 'image', url: '/img/projects/gitl/deals_devices.png', alt: 'GetintheLoop deals page' },
+            { type: 'image', sources: gitlDealsDevices, alt: 'GetintheLoop deals page' },
           ],
         ],
       },
@@ -41,8 +55,8 @@ const projects: i.Project[] = [
         description: `I implemented and managed scheduled jobs that generated highly personalized email and push notifications for GetintheLoop users. These notifications were tailored to the user's location, preferences, and offers in their area. This lead to improved conversion and retention rates and allowed us to schedule-send hundreds of thousands of notifications a day.`,
         media: [
           [
-            { type: 'image', url: '/img/projects/gitl/spotlight_email_tablet.png', alt: 'GetintheLoop business spotlight email' },
-            { type: 'image', url: '/img/projects/gitl/local_business.png', alt: 'Local Business' },
+            { type: 'image', sources: gitlSpotlightEmailTablet, alt: 'GetintheLoop business spotlight email' },
+            { type: 'image', sources: gitlLocalBusiness, alt: 'Local Business' },
           ],
         ],
       },
@@ -64,7 +78,7 @@ const projects: i.Project[] = [
     links: [],
     img: {
       type: 'image',
-      url: '/img/projects/deep/featured.png',
+      sources: deepFeatured,
       alt: 'Featured image of project at Deep BV',
     },
     category: 'App',
@@ -85,11 +99,11 @@ const projects: i.Project[] = [
         description: 'One of my primary responsibilities was to set up a cross-platform app with minimal operating costs and to build upon tried-and-tested frameworks. Within days we had started iterating prototypes.',
         media: [
           [
-            { type: 'image', url: '/img/projects/deep/tech.png', alt: 'Project technologies' },
-            { type: 'image', url: '/img/projects/deep/splashscreen.png', alt: 'Deep logo' },
+            { type: 'image', sources: deepTech, alt: 'Project technologies' },
+            { type: 'image', sources: deepLogo, alt: 'Deep logo' },
           ],
           [
-            { type: 'image', url: '/img/projects/deep/device_mashup.png', alt: 'Deep app on multiple devices' },
+            { type: 'image', sources: deepDevices, alt: 'Deep app on multiple devices' },
           ],
         ],
       },
@@ -98,8 +112,8 @@ const projects: i.Project[] = [
         description: 'Designed to ensure uninterrupted operations in remote locations by allowing users to access and submit important data while offline and automatically synchronizing when back online. This feature allows for efficient and effective operations even when working offshore.',
         media: [
           [
-            { type: 'image', url: '/img/projects/deep/offline.png', alt: 'Deep App functioning offline' },
-            { type: 'image', url: '/img/projects/deep/breaker.jpeg', alt: 'Survey ship' },
+            { type: 'image', sources: deepOffline, alt: 'Deep App functioning offline' },
+            { type: 'image', sources: deepBreaker, alt: 'Survey ship' },
           ],
         ],
       },
@@ -108,7 +122,7 @@ const projects: i.Project[] = [
         description: 'Being the sole developer of Deep PWA, I stay informed and am able to quickly respond to failures using Cloud Monitoring. It helps me work proactively and confidently to ensure the application and it\'s services remain available and performant for Deep\'s users.',
         media: [
           [
-            { type: 'image', url: '/img/projects/deep/metrics.png', alt: 'Cloud Monitoring graphs' },
+            { type: 'image', sources: deepMetrics, alt: 'Cloud Monitoring graphs' },
           ]
         ],
       },
@@ -126,7 +140,7 @@ const projects: i.Project[] = [
     ],
     img: {
       type: 'image',
-      url: '/img/projects/zelfnl/featured.png',
+      sources: zelfFeatured,
       alt: 'Featured image of project Zelf.nl',
     },
     category: 'Website',
@@ -147,8 +161,8 @@ const projects: i.Project[] = [
         description: 'During the development of Zelf.nl, I was tasked with implementing frontend components that adhered to the designs provided, ensuring the final product was pixel-perfect on any screen size and met the high visual standards set by the design team.',
         media: [
           [
-            { type: 'image', url: '/img/projects/zelfnl/dashboard_devices.png', alt: 'Zelf dashboard on multiple devices' },
-            { type: 'image', url: '/img/projects/zelfnl/zelf.jpg', alt: 'Zelf logo' },
+            { type: 'image', sources: zelfDashboardDevices, alt: 'Zelf dashboard on multiple devices' },
+            { type: 'image', sources: zelfLogo, alt: 'Zelf logo' },
           ],
         ],
       },
