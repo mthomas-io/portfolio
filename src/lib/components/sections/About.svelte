@@ -7,7 +7,7 @@
   <div class="flex-1 flex flex-col gap-4">
     <Header size="h2" bold>About</Header>
     <p>
-      I'm a full-stack engineer, born and raised Netherlands, but took the
+      I'm a full-stack engineer, born and raised in Netherlands, but took the
       opportunity to work on diverse projects across Europe and am currently
       residing in Canada with permanent resident status. I'm experienced in
       working in agile teams, have mentored junior developers, led a (small) dev
