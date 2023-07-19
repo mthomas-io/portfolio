@@ -70,7 +70,7 @@
     </ul>
     <div id="resume" class="mt-6">
       <a
-        href="https://drive.google.com/file/d/1fiy4H1McBW5i1HmD3D8Fsrlzhiy5ujeP/view"
+        href="https://drive.google.com/file/d/1iNZe4jAxucJQuqiqhSi04YGvH0b2o7q-/view"
         target="_blank"
         rel="noreferrer"
         class="flex gap-2"
