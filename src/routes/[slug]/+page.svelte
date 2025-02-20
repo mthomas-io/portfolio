@@ -54,11 +54,12 @@
       <div class="flex-1">
         <p>{project.summary}</p>
         {#if project.links.length}
-          <ul class="mt-6">
+          <ul class="mt-6 flex gap-8 flex-wrap">
             {#each project.links as projectLink}
-              <li class="inline-block mt-4">
-                <a href={projectLink.url} target="_blank" rel="noreferrer">
-                  <ArrowLink title={projectLink.title} />
+              <li >
+                <a href={projectLink.url} target="_blank" rel="noreferrer" class="external-link">
+                  {projectLink.title}
+                  <!-- <ArrowLink title={projectLink.title} disableArrow={project.links.length > 1} /> -->
                 </a>
               </li>
             {/each}
