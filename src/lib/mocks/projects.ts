@@ -13,14 +13,14 @@ import deepMetrics from '$lib/assets/projects/deep/metrics.png?width=600;900;120
 import zelfFeatured from '$lib/assets/projects/zelfnl/featured.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
 import zelfDashboardDevices from '$lib/assets/projects/zelfnl/dashboard_devices.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
 import zelfLogo from '$lib/assets/projects/zelfnl/zelf.jpg?width=600;900;1200;1600&format=webp;png&picture&imagetools';
-import boardbatchFilteredSearch from '$lib/assets/projects/boardbatch/271shots_so.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchThemeable from '$lib/assets/projects/boardbatch/themeable.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchDarkMode from '$lib/assets/projects/boardbatch/darkmode.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchBoardlist from '$lib/assets/projects/boardbatch/boardlist.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchPromoted from '$lib/assets/projects/boardbatch/promoted.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchJobPostingSchema from '$lib/assets/projects/boardbatch/jobpostingschema.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchFiltered from '$lib/assets/projects/boardbatch/filtered.png?width=2400&format=webp;png&picture&imagetools';
-import boardbatchBlog from '$lib/assets/projects/boardbatch/blog.png?width=2400&format=webp;png&picture&imagetools';
+import boardbatchFilteredSearch from '$lib/assets/projects/boardbatch/271shots_so.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchThemeable from '$lib/assets/projects/boardbatch/themeable.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchDarkMode from '$lib/assets/projects/boardbatch/darkmode.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchBoardlist from '$lib/assets/projects/boardbatch/boardlist.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchPromoted from '$lib/assets/projects/boardbatch/promoted.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchJobPostingSchema from '$lib/assets/projects/boardbatch/jobpostingschema.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchFiltered from '$lib/assets/projects/boardbatch/filtered.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
+import boardbatchBlog from '$lib/assets/projects/boardbatch/blog.png?width=600;900;1200;1600&format=webp;png&picture&imagetools';
 
 // Move to a headless cms one day, probably, maybe..
 const projects: i.Project[] = [
